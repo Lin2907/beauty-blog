@@ -29,6 +29,36 @@ h1 {                                                  /*Main content style*/
     left: 50%;
     transform: translate(-50%, -50%);
   }
+ /*styling the navigation to be pushed vertically */
+ #nav   {
+    width: 25%;
+    float: left;
+    padding: 1rem;
+    
+     }
+
+nav ul  {
+    padding: 0.1rem;
+
+}
+
+nav ul li {
+    padding: 0.5rem;
+    display: block;
+}
+
+nav ul a  {
+    display: inline-block;
+    width: 90%;
+    font-size: 1rem;
+    margin: 0.2rem;
+    padding: 0.3rem;    
+} 
+
+nav a:hover, nav a:active, nav a:focus {
+    color: black;
+}
+    
   
   
   /* Class Title - animation and process source : Tutorial - https://www.youtube.com/watch?v=mikht2lEnI0 */
@@ -52,5 +82,7 @@ h1 {                                                  /*Main content style*/
     100% {
         background-position: 0 0;
     }
-  }                               
+  }        
+  
+  
 
