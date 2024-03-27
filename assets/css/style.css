@@ -3,8 +3,13 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
-   
-  }
+   }
+
+   body  {
+    margin: 0;
+    padding: 0;
+    }
+
   
   .home {
     width: 100%;
@@ -12,6 +17,40 @@
     background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url("../images/cover.webp");
     background-color: white;   /* In case the browser doesn't opens the cover image*/
     background-size: cover;
-    background-position: center;
+    background-position:center;
     position: relative;
 }
+
+h1 {                                                  /*Main content style*/
+    font-family: 'Poppins', sans-serif;
+    color: #9e3287;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  
+  /* Class Title - animation and process source : Tutorial - https://www.youtube.com/watch?v=mikht2lEnI0 */
+  
+  .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    -webkit-text-stroke: 1px #9e3287;
+    color: transparent;
+    background-image: linear-gradient(#9e3287 #9e3287);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: -900px 0;
+    animation: backcolor 5s linear infinite alternate;
+  }
+
+  @keyframes backcolor {
+    100% {
+        background-position: 0 0;
+    }
+  }                               
+
