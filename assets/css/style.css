@@ -47,16 +47,19 @@ nav ul li {
     display: block;
 }
 
-nav ul a  {
+#nav ul a  {
     display: inline-block;
     width: 90%;
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin: 0.2rem;
-    padding: 0.3rem;    
+    padding: 0.3rem; 
+    color: #9e3287;
+    font-weight: bold;
+   text-decoration: none;   
 } 
 
-nav a:hover, nav a:active, nav a:focus {
-    color: black;
+#nav a:hover, #nav a:active, #nav a:focus {
+    color: rgb(233, 185, 222);
 }
     
   
