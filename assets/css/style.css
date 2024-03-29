@@ -165,11 +165,11 @@ nav ul li {
     padding: 0;
     margin: 40px 0 ;
     }
-
+  /* Nav elements for skin-care*/ 
   #navigation {
-    width:50%;
+    width :80%;
     float: left;
-    padding: 0.5rem;
+    padding: 1rem;
    }
 
 
@@ -213,6 +213,7 @@ nav ul li {
 /* End of Love Running code part*/
 
 /* Skin-care style incl img and text*/
+
 #skin-care { display:flex;
           flex-direction: row;}
 
@@ -221,6 +222,7 @@ nav ul li {
   font-size:100%;
  }
 
+ /* Styles for smaller screens */
   @media only screen and (max-width: 768px) {
 		*.title {
 			font-size: 180%;
@@ -254,9 +256,13 @@ nav ul li {
 
     .content { width:100%;
       flex-direction: column;
-      
        }
 
+     #navigation { 
+      width :100%;
+      float: none;
+      text-align: center;
+    }
     #navigation ul li { list-style-type: none;
       display: inline-block;
       }
