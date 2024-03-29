@@ -35,8 +35,7 @@ h1 {                                                  /*Main content style*/
     width: 25%;
     float: left;
     padding: 0.5rem;
-    
-     }
+    }
 
 nav ul  {
     padding: 0.1rem;
@@ -130,8 +129,8 @@ nav ul li {
     }
 
   #tips {
-    color : rgb(214, 10, 112);
-    background-color: black;
+    color : white;
+    background-color: rgb(224, 5, 114);
     font-family: "Lobster" , serif;
     text-align: center;
     font-size: 200%;
@@ -163,7 +162,7 @@ nav ul li {
     }
 
   #navigation {
-    width: 30%;
+    width:40%;
     float: left;
     padding: 0.5rem;
    }
@@ -171,7 +170,7 @@ nav ul li {
 
     #navigation ul a { 
     display: inline-block;
-    width: 80%;
+    width: 100%;
     font-size: 1.2rem;
     margin: 0.2rem;
     padding: 0.3rem; 
