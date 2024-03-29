@@ -311,6 +311,10 @@ nav ul li {
 
       #model { width:100%;
       }
+      #hydrate { display: flex;
+      flex-direction: column;}
+
+      #products { width:100%;}
 
     }
 
