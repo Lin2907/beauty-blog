@@ -130,8 +130,8 @@ nav ul li {
     }
 
   #tips {
-    color : white;
-    background-color:rgb(214, 10, 112);
+    color : rgb(214, 10, 112);
+    background-color: black;
     font-family: "Lobster" , serif;
     text-align: center;
     font-size: 200%;
@@ -182,6 +182,31 @@ nav ul li {
     background-color: rgb(214, 10, 112);
     border-radius: 0.5rem;
     }
+
+    /* Hero section - Love running project*/
+#hero {
+  height: 600px;
+  width: 100%;
+  background: url("../images/selfcare.jpeg ") no-repeat center center/cover ;
+  position: relative;
+}
+
+#cover-text {
+  /* Final rgba value sets the opacity so it is semi-transparent */
+  background-color: rgba(241, 109, 107, .7);
+  font-size: 130%;
+  position: absolute;
+  bottom: 30px;
+  width: 80%;
+  min-height: 200px;
+  padding-top: 40px;
+  padding-left: 10px;
+}
+
+#cover-text > h2, #cover-text > h3 {
+  color: #ffffff;
+}
+/* End of Love Running code part*/
 
   @media only screen and (max-width: 768px) {
 		*.title {
