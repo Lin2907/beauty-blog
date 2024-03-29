@@ -156,22 +156,19 @@ nav ul li {
 	  text-align: left;
 	}
 
-  img  {
-    width:30%;
-    float: left;
+  img  { 
+    width:30%; 
     padding: 0;
-    margin: 0.3rem;
+    margin: 0.3rem ;
     }
-
-  
-
 
   #navigation {
     width: 30%;
     float: left;
     padding: 0.5rem;
-  
-  }
+   }
+
+
     #navigation ul a { 
     display: inline-block;
     width: 80%;
