@@ -142,8 +142,9 @@ nav ul li {
 
    .content {
     background-color: black;
+    border :solid rgb(214, 10, 112) 2px;
     display: flex;
-    gap : 4em;
+    gap : 2em;
      }
 
     main {
@@ -168,9 +169,10 @@ nav ul li {
     }
   /* Nav elements for skin-care*/ 
   #navigation {
-    width :80%;
+    width :60%;
     float: left;
     padding: 1rem;
+    border-right:solid rgb(214, 10, 112) 1px ;
    }
 
 
