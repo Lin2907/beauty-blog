@@ -121,12 +121,14 @@ nav ul li {
     } 
 
   footer a { color:white;}
+
    /* Header Skincare page */
 
    header {
     margin: 0;
      padding: 0.05rem;
     }
+
   #tips {
     color : white;
     background-color:rgb(214, 10, 112);
@@ -136,16 +138,13 @@ nav ul li {
     letter-spacing: 2px;
     padding: 0.8rem;
    }
+
    /* Article section style*/
-   .content { 
-    display:flex;
-   }
 
    main {
     margin: 0 0 0 20%;
 	  padding: 15px;
 	  border-left: 1px solid black ;
-    float: left;
   }
    
    main p {
@@ -155,11 +154,27 @@ nav ul li {
 	}
 
   img  {
-    width:50%;
+    width:40%;
     float: left;
     padding: 0;
     margin: 0.3rem;
     }
+
+    #model {  order:0 ;
+    }
+
+    #navigation ul a { display: inline-block;
+    width: 60%;
+    font-size: 1.2rem;
+    margin: 0.2rem;
+    padding: 0.3rem; 
+    color: white;
+    letter-spacing: 2px;
+    text-decoration: none; 
+    text-align: center;  
+    background-color: black;
+    border : solid rgb(158, 18, 18) 1px;
+    border-radius: 0.5em; }
 
   @media only screen and (max-width: 768px) {
 		*.title {
