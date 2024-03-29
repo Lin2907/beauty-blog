@@ -141,15 +141,16 @@ nav ul li {
    /* Article section style*/
 
    .content {
+    background-color: black;
     display: flex; }
 
     main {
     margin: 0;
 	  padding: 15px;
-	  border-left: 1px solid black ;
   }
    
    main p {
+    color: white;
     font-size: 90%;
     line-height: 1.6;
 	  text-align: left;
