@@ -226,7 +226,7 @@ nav ul li {
  }
 
   /*Flex container style*/
-  
+
  .flex-container {
   display: flex;
   justify-content: flex-start; /* Align items to the left */
@@ -244,6 +244,21 @@ nav ul li {
   padding: 0;
   margin: 20px 0 ;
   }
+
+  /* The last segment of main content*/
+  .flex {
+    padding:15px;
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    border : solid rgb(214, 10, 112) 1px;
+}
+
+.text{
+    flex: 0 0 50%;
+    margin-bottom: 20px;
+}
+
 
  /* Styles for smaller screens */
   @media only screen and (max-width: 768px) {
