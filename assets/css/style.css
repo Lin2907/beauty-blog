@@ -161,9 +161,10 @@ nav ul li {
   h4 { color:white;}
 
   #model { 
-    width:35%;
+    width:40%;
+    max-height :60vh;
     padding: 0;
-    margin: 40px 0 ;
+    margin: 20px 0 ;
     }
   /* Nav elements for skin-care*/ 
   #navigation {
