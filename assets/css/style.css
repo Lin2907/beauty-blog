@@ -142,7 +142,8 @@ nav ul li {
 
    .content {
     background-color: black;
-    display: flex; }
+    display: flex;
+    gap: 1rem; }
 
     main {
     margin: 0;
@@ -156,10 +157,12 @@ nav ul li {
 	  text-align: left;
 	}
 
-  img  { 
-    width:30%; 
+  h4 { color:white;}
+
+  #model { 
+    width:35%; 
     padding: 0;
-    margin: 0.3rem ;
+    margin: 10px 0 ;
     }
 
   #navigation {
@@ -207,6 +210,15 @@ nav ul li {
   color: #ffffff;
 }
 /* End of Love Running code part*/
+
+/* Skin-care style incl img and text*/
+#skin-care { display:flex;
+          flex-direction: row;}
+
+#skin-care > p { padding : 20px;
+  align-self: center;
+  font-size:100%;
+ }
 
   @media only screen and (max-width: 768px) {
 		*.title {
