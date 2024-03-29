@@ -163,8 +163,6 @@ nav ul li {
     margin: 0.3rem;
     }
 
-  
-
 
   #navigation {
     width: 50%;
@@ -182,9 +180,9 @@ nav ul li {
     letter-spacing: 2px;
     text-decoration: none; 
     text-align: center;  
-    background-color: black;
-    border : solid rgb(158, 18, 18) 1px;
-    border-radius: 0.5em; }
+    background-color: rgb(214, 10, 112);
+    border-radius: 0.5rem;
+    }
 
   @media only screen and (max-width: 768px) {
 		*.title {
