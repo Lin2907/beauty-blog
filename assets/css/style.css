@@ -113,8 +113,8 @@ nav ul li {
   
   footer { 
     height: 50px;
-    border-top: solid white 1px;;
     background-color : black;
+    border-top: solid white 2px;
     padding :15px;
     text-align: center;
     color: white;
