@@ -112,7 +112,6 @@ nav ul li {
   /* End of Animation */
   
   footer { 
-    position:relative;
     height: 50px;
     border-top: solid white 1px;;
     background-color : black;
@@ -122,16 +121,22 @@ nav ul li {
     } 
 
   footer a { color:white;}
-   /* Header Skincare */
+   /* Header Skincare page */
   #tips {
     color : white;
     background-color:rgb(214, 10, 112);
     font-family: "Lobster" , serif;
     text-align: center;
-    font-weight:lighter;
     font-size: 200%;
     letter-spacing: 2px;
     padding: 0.8rem;
+   }
+   /* Article section style*/
+   .content { 
+    display:flex;
+    margin: 0 0 0 20%;
+	  padding: 15px;
+	  border-left: 1px solid black ;
    }
 
   @media only screen and (max-width: 768px) {
