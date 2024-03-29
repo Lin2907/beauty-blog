@@ -141,9 +141,13 @@ nav ul li {
       font-weight: bold;
       text-decoration: none;
       background-color: transparent;
-      border-radius: 0.5em;
       
       }
+
+      #nav a:hover, #nav a:active, #nav a:focus {
+        color: black;
+    }
+        
 		
 
 	}
