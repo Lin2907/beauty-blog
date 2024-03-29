@@ -23,7 +23,7 @@
 
 h1 {                                                  /*Main content style*/
     font-family: 'Dancing Script', cursive;
-    font-size: 300%;
+    font-size: 320%;
     color: white;
     position: absolute;
     top: 50%;
@@ -98,7 +98,7 @@ nav ul li {
                 } 
 
   100% { width:60%;
-          height:30%;}
+          height:20%;}
             } 
     
     
