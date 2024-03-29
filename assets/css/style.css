@@ -141,8 +141,11 @@ nav ul li {
 
    /* Article section style*/
 
-   main {
-    margin: 0 0 0 20%;
+   .content {
+    display: flex; }
+
+    main {
+    margin: 0;
 	  padding: 15px;
 	  border-left: 1px solid black ;
   }
@@ -160,11 +163,18 @@ nav ul li {
     margin: 0.3rem;
     }
 
-    #model {  order:0 ;
-    }
+  
 
-    #navigation ul a { display: inline-block;
-    width: 60%;
+
+  #navigation {
+    width: 50%;
+    float: left;
+    padding: 0.5rem;
+  
+  }
+    #navigation ul a { 
+    display: inline-block;
+    width: 80%;
     font-size: 1.2rem;
     margin: 0.2rem;
     padding: 0.3rem; 
@@ -207,9 +217,7 @@ nav ul li {
       #nav a:hover, #nav a:active, #nav a:focus {
         color: white;
   
-    }
-        
-		
+    }	
 
 	}
     
