@@ -34,7 +34,7 @@ h1 {                                                  /*Main content style*/
  #nav   {
     width: 25%;
     float: left;
-    padding: 1rem;
+    padding: 0.5rem;
     
      }
 
@@ -120,6 +120,30 @@ nav ul li {
 		*.title {
 			font-size: 180%;
 		}
+
+    #nav {
+      width :100%;
+      float: none;
+      text-align: center;
+    }
+
+    #nav ul li  {
+      list-style-type: none;
+      display: inline-block;
+      
+      
+      }
+      
+     #nav ul a {
+      padding: 0.2rem;
+      color: white;
+      font-size: 0.8rem;
+      font-weight: bold;
+      text-decoration: none;
+      background-color: transparent;
+      border-radius: 0.5em;
+      
+      }
 		
 
 	}
