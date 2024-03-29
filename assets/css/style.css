@@ -122,6 +122,11 @@ nav ul li {
 
   footer a { color:white;}
    /* Header Skincare page */
+
+   header {
+    margin: 0;
+     padding: 0.05rem;
+    }
   #tips {
     color : white;
     background-color:rgb(214, 10, 112);
@@ -134,10 +139,27 @@ nav ul li {
    /* Article section style*/
    .content { 
     display:flex;
+   }
+
+   main {
     margin: 0 0 0 20%;
 	  padding: 15px;
 	  border-left: 1px solid black ;
-   }
+    float: left;
+  }
+   
+   main p {
+    font-size: 90%;
+    line-height: 1.6;
+	  text-align: left;
+	}
+
+  img  {
+    width:50%;
+    float: left;
+    padding: 0;
+    margin: 0.3rem;
+    }
 
   @media only screen and (max-width: 768px) {
 		*.title {
