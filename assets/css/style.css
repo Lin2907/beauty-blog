@@ -68,28 +68,46 @@ nav ul li {
 }
     
    
-  /* Class Title - animation and process source : Tutorial - https://www.youtube.com/watch?v=mikht2lEnI0 */
+  /* Class Title - animation and process source : Tutorial - https://www.geeksforgeeks.org/how-to-create-text-reveal-effect-using-html-and-css/ */
   
   .title {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-text-stroke: 1px white;
-    color: transparent;
-    background-image: linear-gradient(#9e3287 #9e3287);
-    background-repeat: no-repeat;
-    -webkit-background-clip: text;
-    background-clip: text;
-    background-position: -900px 0;
-    animation: backcolor 5s linear infinite alternate;
-  }
+    overflow: hidden; 
+    animation: animate 2s linear forwards; 
+            } 
+  
+  
+  
+   @keyframes animate { 
+      0% { 
+     width: 0px; 
+    height: 0px; 
+                } 
+   30% { 
+       width: 30%; 
+       height: 0px; 
+                } 
+  
+  60% { 
+          width: 60%; 
+         height: 10%; 
+                } 
+
+  100% { width:60%;
+          height:30%;}
+            } 
+    
+    
 
   @keyframes backcolor {
     100% {
         background-position: 0 0;
     }
-  }        
+  }      
+   
+  /* End of Animation */
   
   footer { background-color : black;
             padding :15px;
@@ -98,5 +116,12 @@ nav ul li {
           }
 
   footer a { color:white;}
-  
+  @media only screen and (max-width: 768px) {
+		*.title {
+			font-size: 180%;
+		}
+		
 
+	}
+    
+  
