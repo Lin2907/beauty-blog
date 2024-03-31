@@ -72,7 +72,7 @@ nav ul li {
   /* Class Title - animation and process source : Tutorial - https://www.geeksforgeeks.org/how-to-create-text-reveal-effect-using-html-and-css/ */
   
   .title {
-    position: absolute;
+    position: absolutee;
     top: 50%;
     left: 50%;
     overflow: hidden; 
@@ -317,6 +317,14 @@ nav ul li {
 
       #products { width:100%;}
 
+    }
+  /* Adjust the title for home page for landscape*/
+    @media screen and (orientation: landscape) {
+      .title {
+        font-size:200%;
+          top: 40%; 
+          left: 50%;
+      }
     }
 
 	
