@@ -18,6 +18,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <script src="index.js"></script>  <!--Add an external JS file-->
 </head>
 <body>
 <header id ="tips"> Essential Skincare Tips for a Radiant Glow and Beyond</header>
@@ -42,7 +43,9 @@
         </section>
       <article>
         <div id="skin-care">
-            <img id="model" src="assets/images/healthy-skin.jpg" alt="Beautiful model">
+            <img id="model" src="assets/images/make-up.jpg" alt="Beautiful model"
+            onmouseover = "replace(this.id ,'assets/images/healthy-skin.jpg')"   
+            onmouseout = "replace (this.id , 'assets/images/make-up.jpg')"> <!--Image switch on event-->
             <p>Achieving healthy, glowing skin requires more than just luck; it demands consistent care and attention. 
         With the right skincare routine and habits, you can unlock your skin's natural radiance and maintain its vitality. 
         Here are the essential skincare tips to help you achieve and maintain beautiful, luminous skin.<br>
