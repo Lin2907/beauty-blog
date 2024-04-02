@@ -279,7 +279,7 @@ nav ul li {
       width:100%;
       padding: 0.2rem;
       color: white;
-      font-size: 0.7rem;
+      font-size: 0.8rem;
       font-weight: bold;
       text-decoration: none;
       background-color: transparent;
@@ -303,6 +303,15 @@ nav ul li {
     #navigation ul li { list-style-type: none;
       display: inline-block;
       }
+
+    #navigation ul a { 
+      font-size:0.8rem;
+      width:100%;
+      padding: 0.2rem;
+    }
+
+    #tips { font-size: 150%;
+    }
 
       #skin-care { display:flex;
         flex-direction: column;}
